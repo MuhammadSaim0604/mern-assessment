@@ -105,3 +105,35 @@ li::marker {
   content: url('/marker.png');
 } */
 
+
+
+.sp-1 {
+  clip-path: polygon(0% 0%, 100% 0, 86% 57%, 75% 100%, 0% 100%);
+}
+
+/* Mobile responsive utility classes */
+@media (max-width: 640px) {
+  .topbar {
+    height: 6vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+  }
+  .t-2-u {
+    font-size: xx-small;
+  }
+  .t-1-u {
+    font-size: xx-small;
+  }
+
+}
+@media (max-width: 768px) {
+  .sp-1 {
+    width: 2090px;
+    height: 70px;
+  }
+}

@@ -76,7 +76,7 @@ const Header = () => {
           </nav>
 
           {/* RIGHT ACTIONS */}
-          <div className="flex items-center gap-4 pr-10 mr-10">
+          <div className="flex items-center justify-center gap-4 pr-10 mr-10">
 
             <button className="flex h-[46px] w-[46px] items-center justify-center rounded-full bg-[#4E5250] hover:scale-105 transition">
               <Search size={20} color="white" />

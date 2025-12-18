@@ -1,6 +1,6 @@
 # Fixyland Hotel Booking System - Setup Guide
 
-## Backend APIs Created (3 as per assessment)
+## Backend APIs Created.
 
 ### 1. **GET /api/staff** - Expert Staff API
 - Returns staff data for the About Us page

@@ -52,8 +52,8 @@ const Header = () => {
       </div>
 
       {/* ================= MAIN BAR ================= */}
-      <div className="bg-[#272727] h-20">
-        <div className="flex max-w-[1400px] items-center justify-between h-full">
+      
+        <div className="flex items-center justify-between h-full bg-[#272727] h-20">
 
           {/* LOGO — FLUSH LEFT */}
            <div className="sp-1 relative -mb-2 flex h-[90px] w-[300px] items-center gap-3 bg-white pl-6 text-3xl font-bold text-black">
@@ -94,7 +94,7 @@ const Header = () => {
 
           </div>
         </div>
-      </div>
+      
     </header>
   );
 };

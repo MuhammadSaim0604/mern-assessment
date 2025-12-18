@@ -44,9 +44,9 @@ const OutdoorSection = () => {
 
         </div>
         <div className='h-3/4 w-2/5 relative'>
-            <img src="/hotel-1.jpg" className='rounded-2xl object-cover h-[450px] w-[350px] absolute top-0 right-6 z-5' alt="" />
-            <img src="/hotel-2.jpg" className='rounded-2xl object-center h-[320px] w-[250px] absolute bottom-[-10px] left-18 z-6' alt="" />
-            <img src="/hotel-3.jpg" className='rounded-2xl object-center h-[200px] w-[200px] absolute bottom-1 left-56 z-7' alt="" />
+            <img src="/hotel-1.jpg" className='rounded-2xl object-cover h-[80%] w-[45%] absolute top-[0%] right-[5%] z-5' alt="" />
+            <img src="/hotel-2.jpg" className='rounded-2xl object-center h-[55%] w-[35%] absolute bottom-[-4%] left-[20%] z-6' alt="" />
+            <img src="/hotel-3.jpg" className='rounded-2xl object-center h-[35%] w-[30%] absolute bottom-[1%] left-[40%] z-7' alt="" />
         </div>
     </section>
   )
